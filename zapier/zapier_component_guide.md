@@ -1,5 +1,11 @@
 # Zapier Component Guide
 
+## Important Note
+All commands in this guide should be executed from within the `zapier` folder:
+```bash
+cd zapier  # Always start here
+```
+
 ## Prerequisites and Setup
 
 1. Install Required Dependencies
