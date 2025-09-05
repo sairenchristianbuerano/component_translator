@@ -4,14 +4,28 @@ module.exports = {
   version: require('./package.json').version,
   platformVersion: require('zapier-platform-core').version,
 
-  // If you want your trigger to show up, you better include it here!
-  triggers: {},
+  triggers: {
+    example: {
+      key: 'example',
+      noun: 'Example',
+      
+      display: {
+        label: 'Example Trigger',
+        description: 'Triggers when an example event happens.'
+      },
 
-  // If you want your searches to show up, you better include it here!
+      operation: {
+        perform: () => {
+          return [
+            { id: 1, name: 'Example 1' },
+            { id: 2, name: 'Example 2' }
+          ];
+        }
+      }
+    }
+  },
+
   searches: {},
-
-  // If you want your creates to show up, you better include it here!
   creates: {},
-
   resources: {},
 };
