@@ -15,6 +15,9 @@
 ### Zapier Component
 - Commands are located in: [Zapier Component Guide](../zapier/zapier_component_guide.md)
 
+### Airflow Component
+- Commands are located in: [Airflow Component Guide](../airflow/airflow_component_guide.md)
+
 ---
 
 ## Adding New Components
@@ -52,6 +55,9 @@ To execute commands, use any of these phrases with Claude:
 1. "Execute commands from zapier_component_guide.md"
 2. "Run Zapier component setup process"
 3. "Initialize Zapier component installation"
+4. "Execute commands from airflow_component_guide.md"
+5. "Initialize Airflow environment setup"
+6. "Start Airflow component creation process"
 
 ## Important Notes:
 - Commands will be executed in the sequence defined in the component guide
